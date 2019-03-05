@@ -24,12 +24,12 @@ import (
 	"fmt"
 
 	"github.com/boltdb/bolt"
-	"github.com/budkin/gmusic"
+	"github.com/gatero/gmusic"
 	"github.com/howeyc/gopass"
 
-	"github.com/budkin/jam/lastfm"
-	"github.com/budkin/jam/music"
-	"github.com/budkin/jam/storage"
+	"github.com/gatero/jam/lastfm"
+	"github.com/gatero/jam/music"
+	"github.com/gatero/jam/storage"
 )
 
 func loginFromDatabase(db *bolt.DB) (*gmusic.GMusic, error) {

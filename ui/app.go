@@ -32,12 +32,12 @@ import (
 	// "time"
 
 	"github.com/boltdb/bolt"
-	"github.com/budkin/gmusic"
+	"github.com/gatero/gmusic"
 	"github.com/gdamore/tcell"
 	// runewidth "github.com/mattn/go-runewidth"
 
-	"github.com/budkin/jam/lastfm"
-	"github.com/budkin/jam/music"
+	"github.com/gatero/jam/lastfm"
+	"github.com/gatero/jam/music"
 )
 
 const (

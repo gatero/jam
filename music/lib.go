@@ -26,7 +26,7 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/budkin/gmusic"
+	"github.com/gatero/gmusic"
 )
 
 type BTrack struct {
